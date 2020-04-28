@@ -2,7 +2,7 @@
 
 $admin = '698857288';
 $token = '1124952210:AAFDh4sBYZO5jUI8sJJ5LyRhDx-C3buUf3c';
-
+echo "salom";
 function bot($method,$datas=[]){
 global $token;
     $url = "https://api.telegram.org/bot".$token."/".$method;
