@@ -47,13 +47,6 @@ $replytx = $message->reply_to_message->text;
 
 $type = $message->chat->type;
 $text = $message->text;
-$xabar=show_users($text);
-if($replytx){
-  insert($replytx,$text);
-sendd($cid,$xabar,$mid);
-}elseif($text){
-sendd($cid,$xabar,$mid);
-}
 
 switch ($text) {
     case "/start":
