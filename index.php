@@ -1,8 +1,7 @@
 <?php
-require "dbconn.php";
 
 $admin = '698857288';
-$token = '1052068114:AAH4ryXhEBEfLMlnhB3M6P1cEDg48ZVJ0bI';
+$token = '1124952210:AAFDh4sBYZO5jUI8sJJ5LyRhDx-C3buUf3c';
 
 function bot($method,$datas=[]){
 global $token;
